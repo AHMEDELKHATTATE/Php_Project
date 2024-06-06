@@ -48,7 +48,7 @@
             $pwd=$_POST["pwd"];
             $req="INSERT INTO clients ( nom, prenom, email, passeword) VALUES  ( '$nom','$prenom','$email','$pwd')";
             $res=$con->query($req);
-            header('location:INDEX.php');
+            header('location:index.html');
         }  
     ?>
 	         </form>
