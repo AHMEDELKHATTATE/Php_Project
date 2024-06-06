@@ -14,7 +14,7 @@
 						header("location:page2.php");
 					}
 					else {
-						header("location:INDEX.php");
+						header("location:index.html");
 					}
 				}
 				?>
